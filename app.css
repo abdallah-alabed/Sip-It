@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Tangerine:wght@700&display=swap');
+
+body{
+    background-image: url('https://www.wallpaperbetter.com/wallpaper/791/899/699/black-dark-abstract-hd-2K-wallpaper.jpg');
+    color: rgb(209, 202, 202);
+    font-family: 'Antic Didone', serif;
+}
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 48px;
+        margin: 0 0 16px 0;
+    }
+    h3{
+        font-weight: 300;
+        font-size: 22px;
+        margin: 0 0 16px 0;
+    }
+    section{
+        padding: 25px 0 15px 0;
+    }
+    .feature {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 16px;
+        align-items: center;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+    .feature img{
+        width: 15%;
+        min-width: 60px;
+        margin-right: 20px;
+    }
+    footer{
+        background: #F638DC ;
+        padding: 26px 0 10px 0;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+    footer li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+h1{
+    font-size: 48px;
+    margin: 0 0 16px 0;
+    font-family: 'Antic Didone', serif;
+}
+h3{
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+    font-family: 'Antic Didone', serif;
+}
+
+.container{
+margin: 0 auto;
+padding: 0 20px 0 20px;
+max-width: 1024px;
+margin-top: 27px;
+/* background-color: red; */
+
+}
+.feature {
+    display: inline-block;
+    width: 32%;
+    font-size: 16px;
+    align-items: center;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+.feature img{
+    width: 40%;
+    margin-left: 70px;
+}
+footer{
+    background: black ;
+    /* border: 1px solid white; */
+    padding: 28px 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+footer li a{
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color:white ;
+    background-color: black;
+}
+footer li a:hover{
+    background-color:#CFFFDC ;
+    color: black;
+}
+#header{
+    background: black ;
+    /* border: 1px solid white; */
+    padding: 28px 0;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Antic Didone', serif;
+    font-family: 'Tangerine', cursive;
+}
+#header span{
+    font-size: 14px;
+    font-family: 'Antic Didone', serif;
+
+}
