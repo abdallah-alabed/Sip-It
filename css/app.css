@@ -5,7 +5,7 @@ body{
     color: rgb(209, 202, 202);
     font-family: 'Antic Didone', serif;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     h1{
         font-size: 48px;
         margin: 0 0 16px 0;
@@ -30,7 +30,6 @@ body{
     .feature img{
         width: 15%;
         min-width: 60px;
-        margin-right: 20px;
     }
     footer{
         background: #F638DC ;
@@ -42,6 +41,9 @@ body{
     footer li {
         display: block;
         margin: 5px 0;
+    }
+    .container .gmap_canvas{
+        max-width: 300px;
     }
 }
 h1{
@@ -58,7 +60,7 @@ h3{
 
 .container{
 margin: 0 auto;
-padding: 0 20px 0 20px;
+/* padding: 0 20px 0 20px; */
 max-width: 1024px;
 margin-top: 27px;
 /* background-color: red; */
@@ -74,7 +76,7 @@ margin-top: 27px;
 }
 .feature img{
     width: 40%;
-    margin-left: 70px;
+    margin-left: 0 0 0 10%;
 }
 footer{
     background: black ;
@@ -106,15 +108,25 @@ footer li a:hover{
 #header{
     background: black ;
     /* border: 1px solid white; */
-    padding: 28px 0;
+    padding: 20px 0;
     text-align: center;
     color: white;
+    width: 100%;
+}
+#header p{
     font-size: 80px;
     font-family: 'Antic Didone', serif;
     font-family: 'Tangerine', cursive;
+    margin-top: -40px;
 }
-#header span{
+#header h1{
+    font-size: 14px;
+    margin-top: -80px;
+    text-decoration: wavy;
+}
+#header p span{
     font-size: 14px;
     font-family: 'Antic Didone', serif;
 
 }
+/* //////////////////////////////////////// */
